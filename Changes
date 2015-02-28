@@ -1,5 +1,11 @@
 Revision history for Devel-Hook.
 
+0.006   Fri Feb 27 2014
+        - BUG FIX: in CPAN RT #87054 Reini Urban
+          pointed POD mistakes for the newer Perl's
+        - Fixed t/03meta.t - warning about 
+              use Test::More no_plan => 1;
+
 0.005   Fri Mar  3 2008
         - fixed silly mistake in regex at t/10error.t
         - corrected the docs about the direct relationship
