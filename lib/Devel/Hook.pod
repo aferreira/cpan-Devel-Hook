@@ -32,7 +32,7 @@ at the beginning and at the end of a running Perl program
 and its program units. These subroutines correspond
 to the special code blocks: C<BEGIN>, C<UNITCHECK>,
 C<CHECK>, C<INIT> and C<END>. 
-(See details at L< perlmod/BEGIN, UNITCHECK, CHECK, INIT and END >.)
+(See details at L<perlmod/"BEGIN, UNITCHECK, CHECK, INIT and END">.)
 This module provides
 limited capabilities to manipulate these arrays.
 
@@ -187,7 +187,7 @@ C<@blocks> is an array of subroutine references.
 
 =head1 SEE ALSO
 
-L< perlmod/BEGIN, UNITCHECK, CHECK, INIT and END >
+L<perlmod/"BEGIN, UNITCHECK, CHECK, INIT and END">
 
 L<Manip::END>
 
