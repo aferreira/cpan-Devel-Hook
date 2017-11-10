@@ -1,5 +1,7 @@
 Revision history for Devel-Hook.
 
+        - use Carp::croak to report errors
+
 0.006   Fri Feb 27 2014
         - BUG FIX: in CPAN RT #87054 Reini Urban
           pointed POD mistakes for the newer Perl's
