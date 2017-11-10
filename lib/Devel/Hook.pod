@@ -191,6 +191,8 @@ L<perlmod/"BEGIN, UNITCHECK, CHECK, INIT and END">
 
 L<Manip::END>
 
+L<B::CompilerPhase::Hook>
+
 
 =head1 BUGS
 
