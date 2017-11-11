@@ -5,7 +5,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION = '0.010';
+our $VERSION = '0.011';
 
 require XSLoader;
 XSLoader::load( 'Devel::Hook', $Devel::Hook::VERSION );
