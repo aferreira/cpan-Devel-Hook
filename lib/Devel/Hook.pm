@@ -87,7 +87,7 @@ sub _check {
     my $BLOCK = shift;
     if ( grep { !UNIVERSAL::isa($_, "CODE") } @_ ) {
         require Carp;
-        Carp::croak "$BLOCK blocks must be CODE references";
+        Carp::croak("$BLOCK blocks must be CODE references");
     }
 }
 

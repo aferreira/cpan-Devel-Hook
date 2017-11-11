@@ -1,5 +1,7 @@
 Revision history for Devel-Hook.
 
+        - use Carp::croak correctly
+
 0.010   Thu Nov 09 2017
 
         - use Carp::croak to report errors
